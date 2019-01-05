@@ -1,14 +1,14 @@
 # LBWallpaper
-Ò»¸ö×ÔÓÃµÄËæ»ú±ÚÖ½³ÌĞò
-±ÚÖ½À´×Ô[ÂÜ²·¤ÎÍ¼Õ¾](https://img.ijglb.com/ "ÂÜ²·¤ÎÍ¼Õ¾")
-»ùÓÚ.NET Framework 4.5¿ª·¢
+ä¸€ä¸ªè‡ªç”¨çš„éšæœºå£çº¸ç¨‹åº  
+å£çº¸æ¥è‡ª[èåœã®å›¾ç«™](https://img.ijglb.com/ "èåœã®å›¾ç«™")  
+åŸºäº.NET Framework 4.5å¼€å‘
 
 ![image](https://github.com/ijglb/LBWallpaper/raw/master/preview.png)
 
-Æô¶¯ºóÎŞÖ÷´°Ìå£¬½öÈÎÎñÀ¸Í¼±êºÍÍ¼±êÓÒ¼ü²Ëµ¥¡£
-ÈçĞè¿ª»ú×ÔÆôÇë×ÔĞĞÌí¼Ó£¡
-¼òµ¥µÄ¿ª»ú×ÔÆôÌí¼Ó·½Ê½£ºwin+R ´ò¿ªÔËĞĞ´°¿Ú£¬ÊäÈë shell:startup ´ò¿ª¡°Æô¶¯¡±ÎÄ¼ş¼Ğ£¬Îª³ÌĞò´´½¨¿ì½İ·½Ê½²¢¶ªµ½ÎÄ¼ş¼ĞÖĞ¡£
+å¯åŠ¨åæ— ä¸»çª—ä½“ï¼Œä»…ä»»åŠ¡æ å›¾æ ‡å’Œå›¾æ ‡å³é”®èœå•ã€‚  
+å¦‚éœ€å¼€æœºè‡ªå¯è¯·è‡ªè¡Œæ·»åŠ ï¼  
+ç®€å•çš„å¼€æœºè‡ªå¯æ·»åŠ æ–¹å¼ï¼šwin+R æ‰“å¼€è¿è¡Œçª—å£ï¼Œè¾“å…¥ shell:startup æ‰“å¼€â€œå¯åŠ¨â€æ–‡ä»¶å¤¹ï¼Œä¸ºç¨‹åºåˆ›å»ºå¿«æ·æ–¹å¼å¹¶ä¸¢åˆ°æ–‡ä»¶å¤¹ä¸­ã€‚  
 
-ÓÉÓÚÊÇ×ÔÓÃ³ÌĞò£¬ÔÚWindows10ÏµÍ³ÖĞÊÇ¿ÉÓÃµÄ£¬ÆäËû°æ±¾ÏµÍ³Î´¾­²âÊÔ
-# ÏÂÔØ
-Release£º[https://github.com/ijglb/LBWallpaper/releases](https://github.com/ijglb/LBWallpaper/releases "https://github.com/ijglb/LBWallpaper/releases")
+ç”±äºæ˜¯è‡ªç”¨ç¨‹åºï¼Œåœ¨Windows10ç³»ç»Ÿä¸­æ˜¯å¯ç”¨çš„ï¼Œå…¶ä»–ç‰ˆæœ¬ç³»ç»Ÿæœªç»æµ‹è¯•
+# ä¸‹è½½
+Releaseï¼š[https://github.com/ijglb/LBWallpaper/releases](https://github.com/ijglb/LBWallpaper/releases "https://github.com/ijglb/LBWallpaper/releases")
