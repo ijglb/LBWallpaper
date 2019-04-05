@@ -16,6 +16,10 @@ namespace LBWallpaper
 
         public int CacheSize { get; set; } = 100;
 
+        public string SpecailWallpaper { get; set; }
+
+        public bool IsSpecailWallpaper { get; set; } = false;
+
         private string _ConfigPath { get { return Path.Combine(Application.UserAppDataPath, "config.json"); } }
 
         public void ReadConfig()

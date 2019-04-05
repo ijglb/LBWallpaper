@@ -19,6 +19,12 @@ namespace LBWallpaper
             {
                 _ContextMenuStrip = new ContextMenuStrip();
 
+                ToolStripMenuItem specail = new ToolStripMenuItem("特定壁纸");
+                specail.Checked = App.Config.IsSpecailWallpaper;
+                specail.CheckOnClick = true;
+                specail.CheckedChanged += Specail_CheckedChanged;
+                _ContextMenuStrip.Items.Add(specail);
+
                 var setting = _ContextMenuStrip.Items.Add("设置");
                 setting.Click += Setting_Click;
 
@@ -35,6 +41,23 @@ namespace LBWallpaper
                 _NotifyIcon.ContextMenuStrip = _ContextMenuStrip;
                 _NotifyIcon.Visible = true;
             }
+        }
+
+        private void Specail_CheckedChanged(object sender, EventArgs e)
+        {
+            App.Config.IsSpecailWallpaper = ((ToolStripMenuItem)sender).Checked;
+            if (!_DoChangeWallpaper)
+            {
+                Task.Factory.StartNew(() =>
+                {
+                    _DoChangeWallpaper = true;
+                    App.StopTimer();
+                    App.GetNewWallpaper();
+                    App.StartTimer();
+                    _DoChangeWallpaper = false;
+                });
+            }
+
         }
 
         private void NextWallpaper_Click(object sender, EventArgs e)

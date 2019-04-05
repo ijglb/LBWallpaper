@@ -61,10 +61,15 @@ namespace LBWallpaper
 
         public static bool GetNewWallpaper()
         {
-            var file = CheckAndDownloadWallpaper();
+            string file;
+            if (Config.IsSpecailWallpaper && !string.IsNullOrEmpty(Config.SpecailWallpaper) && File.Exists(Config.SpecailWallpaper))
+                file = Config.SpecailWallpaper;
+            else
+                file = CheckAndDownloadWallpaper();
+
             if (string.IsNullOrEmpty(file))
                 return false;
-            if (file == _OldFile)
+            if (!Config.IsSpecailWallpaper && (file == _OldFile))
                 return GetNewWallpaper();
 
             _OldFile = file;
