@@ -32,6 +32,9 @@ namespace LBWallpaper
             {
                 var temp = JsonConvert.DeserializeObject<Config>(File.ReadAllText(_ConfigPath));
                 this.ChangeInterval = temp.ChangeInterval;
+                this.CacheSize = temp.CacheSize;
+                this.SpecailWallpaper = temp.SpecailWallpaper;
+                this.IsSpecailWallpaper = temp.IsSpecailWallpaper;
             }
         }
 
