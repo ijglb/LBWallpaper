@@ -46,6 +46,7 @@ namespace LBWallpaper
         private void Specail_CheckedChanged(object sender, EventArgs e)
         {
             App.Config.IsSpecailWallpaper = ((ToolStripMenuItem)sender).Checked;
+            App.Config.WriteConfig();
             if (!_DoChangeWallpaper)
             {
                 Task.Factory.StartNew(() =>
