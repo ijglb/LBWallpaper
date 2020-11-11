@@ -26,6 +26,7 @@ namespace LBWallpaper
 
         public static void Run()
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             if (!Directory.Exists(_CachePath))
             {
                 Directory.CreateDirectory(_CachePath);
